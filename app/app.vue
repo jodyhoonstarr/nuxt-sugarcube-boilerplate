@@ -1,10 +1,9 @@
 <script setup>
-  import "virtual:sugarcube.css";
+import "virtual:sugarcube.css";
 </script>
 
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
