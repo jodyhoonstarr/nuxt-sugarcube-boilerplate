@@ -5,10 +5,10 @@ const routes = router.getRoutes()
 
 <template>
   <div>
-    <h1>
+    <h1 class="bg-primary">
       Nuxt + SugarCube
     </h1>
-    <h2>
+    <h2 class="bg-secondary">
       Pages:
     </h2>
     <ol>

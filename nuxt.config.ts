@@ -7,4 +7,9 @@ export default defineNuxtConfig({
   vite: {
     plugins: [sugarcube()],
   },
+  css: [
+    "./styles/global/global.css",
+    "./styles/compositions/flow.css",
+    "./styles/compositions/cluster.css",
+  ],
 })
