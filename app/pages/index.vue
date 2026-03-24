@@ -5,13 +5,13 @@ const routes = router.getRoutes()
 
 <template>
   <div>
-    <h1 class="bg-primary">
+    <h1 class="text-black border-primary bg-secondary">
       Nuxt + SugarCube
     </h1>
     <h2 class="bg-secondary">
       Pages:
     </h2>
-    <ol>
+    <ol class="bg-black text-white">
       <li>
         <nuxt-link :to="'/'">
           Home
@@ -23,5 +23,16 @@ const routes = router.getRoutes()
         </nuxt-link>
       </li>
     </ol>
+    <div id="thing" class="border-primary bg-secondary">
+      I'm a thing
+    </div>
   </div>
 </template>
+
+<style lang="css">
+/* make the thing have a border witdth */
+#thing {
+  border-width: 2px;
+  border-style: solid;
+}
+</style>
