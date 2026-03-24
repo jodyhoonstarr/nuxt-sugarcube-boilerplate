@@ -2,10 +2,6 @@
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Notes
-
-The UnoCSS Vscode extension is nice but it recommends classes that do not exist in my project. Setting the autocomplete extension to be strict (`unocss.autocomplete.strict`) may do the trick?
-
 ## Setup
 
 Make sure to install dependencies:
