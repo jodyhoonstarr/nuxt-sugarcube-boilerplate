@@ -1,0 +1,51 @@
+{
+  "size": {
+    "$type": "fluidDimension",
+    "$description": "A minimum and maximum text size allows you to pick the right size from a ratio, depending on the context size. The min and max sizes are in pixels and should be converted to appropriate sizes, per context. For example, for web, they should be converted to REM units (pixelSize / baseSize).",
+    "$extensions": {
+      "scaleGenerator": "https://utopia.fyi/type/calculator/?c=330,18,1.175,1200,24,1.25,7,1,&s=0.75%7C0.5%7C0.25,1.5%7C2%7C3%7C4%7C6,s-l&g=s,l,xl,12"
+    },
+    "step-00": {
+      "$value": {
+        "min": { "value": 0.9375, "unit": "rem" },
+        "max": { "value": 1, "unit": "rem" }
+      }
+    },
+    "step-0": {
+      "$value": {
+        "min": { "value": 1.125, "unit": "rem" },
+        "max": { "value": 1.25, "unit": "rem" }
+      }
+    },
+    "step-1": {
+      "$value": {
+        "min": { "value": 1.35, "unit": "rem" },
+        "max": { "value": 1.5625, "unit": "rem" }
+      }
+    },
+    "step-2": {
+      "$value": {
+        "min": { "value": 1.62, "unit": "rem" },
+        "max": { "value": 1.953, "unit": "rem" }
+      }
+    },
+    "step-3": {
+      "$value": {
+        "min": { "value": 1.944, "unit": "rem" },
+        "max": { "value": 2.441, "unit": "rem" }
+      }
+    },
+    "step-4": {
+      "$value": {
+        "min": { "value": 2.441, "unit": "rem" },
+        "max": { "value": 3.052, "unit": "rem" }
+      }
+    },
+    "step-5": {
+      "$value": {
+        "min": { "value": 2.799, "unit": "rem" },
+        "max": { "value": 3.815, "unit": "rem" }
+      }
+    }
+  }
+}

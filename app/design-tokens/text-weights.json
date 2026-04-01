@@ -1,0 +1,11 @@
+{
+  "font": {
+    "weight": {
+      "$type": "fontWeight",
+      "$description": "Helper classes and custom properties for common font weights.",
+      "regular": { "$value": 400 },
+      "medium": { "$value": 500 },
+      "bold": { "$value": 700 }
+    }
+  }
+}

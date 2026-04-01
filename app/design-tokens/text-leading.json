@@ -1,0 +1,10 @@
+{
+  "leading": {
+    "$type": "number",
+    "$description": "Ratio-based leading/line-height values.",
+    "flat": { "$value": 1 },
+    "fine": { "$value": 1.15 },
+    "standard": { "$value": 1.5 },
+    "loose": { "$value": 1.7 }
+  }
+}

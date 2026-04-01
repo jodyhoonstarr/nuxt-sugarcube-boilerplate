@@ -1,0 +1,15 @@
+{
+  "color": {
+    "$type": "color",
+    "$description": "Hex color codes that can be shared, cross-platform. They can be converted at point of usage, such as HSL for web or CMYK for print.",
+    "dark": {
+      "$value": "#030303"
+    },
+    "light": {
+      "$value": "#ffffff"
+    },
+    "primary": {
+      "$value": "#02394A"
+    }
+  }
+}
